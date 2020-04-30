@@ -1,0 +1,130 @@
+/* ===== RESET ===== */
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	padding:0;
+	margin:0;
+}
+
+/* ===== MAIN E ASIDE e CONTAINER PRINCIPAL ===== */
+
+header nav{
+	height:100px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.main{
+	display: flex;
+	background: #FFFFFF;
+}
+
+.main > aside{
+	width:300px;
+	background:#343A40;
+	height: 100%;
+	padding-bottom: 500em;
+    margin-bottom: -500em;
+}
+
+.main > aside > ul{
+	width: 300px;
+	height: 100%;
+}
+
+.main > aside > ul > .list-group-item{
+background:#343A40;
+
+}
+
+.main > aside > ul > .list-group-item > a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.containerPrincipal{
+width: 100%;
+height: 100%;
+margin: 0 20px;
+padding: 0;
+}
+
+/* ===== ALERTAS ===== */
+.mensagens{
+	padding:15px;
+}
+
+
+/* ===== MAIN P핯INA LOGIN ===== */
+
+.loginUsuario{
+	display: flex;
+	justify-content: center;
+}
+
+.card-form-login{
+	width: 30rem;
+	margin-top:2%;
+	margin-bottom:2%;
+	
+}
+
+/* ===== MAIN P핯INA CADASTRO DE USUARIO ===== */
+
+.cadastroUsuario > .tituloCadastro{
+	
+	padding:15px;
+	
+}
+
+.cadastroUsuario > .card{
+	margin:0px 20px;
+}
+
+
+/* ===== MAIN P핯INA CADASTRO DE ANIMES ===== */
+
+
+.containerPrincipal > .alerta-form-animes{
+	margin: 20px;
+}
+
+.containerPrincipal > .titulo-cadastrar-anime{
+	margin:20px;
+}
+
+.containerPrincipal > .card-cadastro-anime{
+	margin:20px;
+}
+
+/* ===== MAIN P핯INA BUSCAR ANIMES ===== */
+
+
+.titulo-buscar-anime, .titulo-lista-anime{
+	margin:20px;
+}
+
+.containerPrincipal > .card-buscar-anime{
+	margin:0 20px;
+}
+
+.card-lista-anime{
+	margin-bottom: 10px;
+
+}
+
+.card-lista-anime ul li{
+	margin:10px;
+}
+
+
+
+
